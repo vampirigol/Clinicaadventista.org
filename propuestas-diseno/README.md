@@ -2,6 +2,18 @@
 
 Mockups visuales de la nueva web para que **autorices la dirección de diseño** antes de desarrollar.
 
+## Vista previa (Propuesta v1 · premium / corporativo)
+
+**Escritorio:**
+
+![Vista previa escritorio](preview-desktop.png)
+
+**Móvil:**
+
+![Vista previa móvil](preview-mobile.png)
+
+> Para la experiencia real (hover, navegación, scroll), abre `inicio.html` en tu navegador.
+
 ## Cómo verlo
 
 - **Opción rápida:** descarga `inicio.html` y ábrelo con doble clic en tu navegador
