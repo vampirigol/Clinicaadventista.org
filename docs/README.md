@@ -31,7 +31,7 @@ orientada a conversión (ventas), de la Red de Clínicas Adventistas.
 
 ## Propuesta visual (para autorizar)
 
-- **Mockup navegable:** [`/propuestas-diseno/inicio.html`](../propuestas-diseno/inicio.html) — ábrelo en tu navegador.
+- **Sitio navegable (HTML/CSS/JS, paleta azul):** [`/web/index.html`](../web/index.html) — ábrelo en tu navegador (ver `web/README.md` para correrlo local).
 - Cómo verlo y cómo dar el visto bueno: [`/propuestas-diseno/README.md`](../propuestas-diseno/README.md).
 
 ---

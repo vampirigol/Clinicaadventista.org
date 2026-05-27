@@ -1,7 +1,11 @@
 # 06 · Propuesta de diseño (premium / corporativo) — para autorizar
 
 Esta es la **plantilla de propuesta visual** para que des el visto bueno antes de desarrollar.
-Acompáñala con el mockup navegable: [`/propuestas-diseno/inicio.html`](../propuestas-diseno/inicio.html).
+Acompáñala con el sitio navegable: [`/web/index.html`](../web/index.html).
+
+> **Actualización:** la dirección visual cambió a **paleta azul oficial de la marca** (escala
+> `#E6F2FB → #0A2349`) con **fondos claros** y toques de *glassmorphism*, usando el **logo oficial**.
+> La paleta dorada de más abajo era la propuesta v1; la versión vigente (azul) vive en `/web`.
 
 ## 1. Concepto
 
