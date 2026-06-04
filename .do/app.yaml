@@ -1,0 +1,12 @@
+name: clinicas-adventistas
+region: nyc
+static_sites:
+  - name: web
+    github:
+      repo: vampirigol/Clinicaadventista.org
+      branch: claude/nifty-mendel-bW9b5
+      deploy_on_push: true
+    source_dir: /web
+    output_dir: /
+    catchall_document: index.html
+    index_document: index.html
