@@ -1,0 +1,32 @@
+name: Deploy a Staging
+
+on:
+  push:
+    branches:
+      - claude/nifty-mendel-bW9b5
+    paths:
+      - 'web/**'
+
+jobs:
+  deploy:
+    name: Deploy via SSH al Droplet
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del repo
+        uses: actions/checkout@v4
+
+      - name: Deploy al servidor de staging
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.STAGING_HOST }}
+          username: ${{ secrets.STAGING_USER }}
+          key: ${{ secrets.STAGING_SSH_KEY }}
+          port: 22
+          script: |
+            set -e
+            echo "=== Iniciando deploy a staging ==="
+            cd /var/www/clinica-staging
+            git fetch origin
+            git reset --hard origin/claude/nifty-mendel-bW9b5
+            echo "=== Deploy completado ==="
